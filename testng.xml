@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+
+    <parameter name="email" value="numan@test.com"/>
+    <parameter name="password" value="12345"/>
+
+    <test verbose="2" preserve-order="true"
+          name="D:/d drive/Selenium files/selenium_projects/TestNGPractice/src/test/java/Section11/L6_Homepage.java">
+        <classes>
+            <class name="Section11.L10a_Groups">
+            </class>
+            <class name="Section11.L11_Parameters"></class>
+        </classes>
+
+    </test>
+</suite>
